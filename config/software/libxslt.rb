@@ -15,7 +15,7 @@
 #
 
 name "libxslt"
-default_version "1.1.28"
+default_version "1.1.29"
 
 license "MIT"
 license_file "COPYING"
@@ -26,12 +26,8 @@ dependency "config_guess"
 dependency "libtool" if solaris_10?
 dependency "patch" if solaris_10?
 
-version "1.1.28" do
-  source md5: "9667bf6f9310b957254fdcf6596600b7"
-end
-
-version "1.1.26" do
-  source md5: "e61d0364a30146aaa3001296f853b2b9"
+version "1.1.29" do
+  source md5: "a129d3c44c022de3b9dcf6d6f288d72e"
 end
 
 source url: "ftp://xmlsoft.org/libxml2/libxslt-#{version}.tar.gz"
